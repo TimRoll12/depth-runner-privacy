@@ -17,7 +17,7 @@
 
 <section id="en">
 <h1>Depth Runner – Privacy Policy</h1>
-<p class="muted">Last updated: 29 September 2026</p>
+<p class="muted">Last updated: 31 October 2026</p>
 
 <p>Depth Runner ("the game", "the app") is an Android game published by Timothé Rolland (Rolling Byte Studio), an individual developer based in France ("we"). This policy explains what data the app uses, why, and how you can control it. Contact: <a href="mailto:timothe.rolland@gmail.com">timothe.rolland@gmail.com</a>.</p>
 
@@ -31,6 +31,8 @@
 <tr><td>Email address and password, or Google sign-in identifier (only if you create or link an account)</td><td>Sign in, restore your progress on another device</td><td>Google Firebase Authentication</td></tr>
 <tr><td>Player name, chosen avatar, scores, account level</td><td>Displayed publicly on the leaderboards</td><td>Google Cloud Firestore</td></tr>
 <tr><td>Game progress (cloud save)</td><td>Backup and restore of your progress</td><td>Google Cloud Firestore</td></tr>
+<tr><td>Shared colony, only if you light the Beacon Table: a read-only copy of your buildings, furniture, crops, ground, residents, active companion, player level and player name</td><td>Let other players visit your colony</td><td>Google Cloud Firestore</td></tr>
+<tr><td>Guest book messages, friends list and friend invitations, letters (one of a few fixed phrases and a few basic resources) and colony reports</td><td>Visits, friends and letters between players; moderation of reports</td><td>Google Cloud Firestore</td></tr>
 <tr><td>Feedback posts, votes, referral codes and referrals</td><td>Community feedback board and invite rewards</td><td>Google Cloud Firestore</td></tr>
 <tr><td>Anonymous usage counters (for example number of players, games played, purchases)</td><td>Understand overall usage; no counter is linked to you</td><td>Google Cloud Firestore</td></tr>
 <tr><td>Crash reports: device model, Android version, app version, technical logs</td><td>Fix bugs and improve stability</td><td>Google Firebase Crashlytics</td></tr>
@@ -43,13 +45,14 @@
 <p>The game is free thanks to ads. On first launch you are asked to accept or decline personalized advertising. If you accept, our advertising partners and Meta may use your advertising ID and device data to personalize and measure ads. If you decline, you still see ads, but they are not personalized and Meta's ad measurement stays off. You can change your choice at any time in <em>Settings → Privacy</em>. You can also reset your advertising ID or opt out of ad personalization in your Android settings. Some advertising SDKs may start technical initialization before you make a choice; personalized advertising and Meta measurement only apply after you accept.</p>
 
 <h2>4. Legal bases (GDPR)</h2>
-<p>Account, leaderboard and cloud-save data: performance of the service you request. Crash reports: our legitimate interest in keeping the game stable. Personalized advertising and Meta measurement: your consent, which you can withdraw at any time.</p>
+<p>Account, leaderboard, cloud-save, shared colony, friends and letters data: performance of the service you request. Crash reports: our legitimate interest in keeping the game stable. Personalized advertising and Meta measurement: your consent, which you can withdraw at any time.</p>
 
 <h2>5. Public content</h2>
 <p>Your player name, avatar, scores and account level are visible to other players on the leaderboards. Do not use your real name or personal information as a player name. Names are automatically checked for inappropriate content.</p>
+<p>If you light the Beacon Table, other players can visit a read-only copy of your colony and see your player name and level. It never includes your items, wallet, purchases or progress. You can stop sharing at any time by putting out the beacon, which deletes the copy; a copy that is not refreshed expires automatically. Visitors can leave you one of a few fixed messages, shown with their player name, and can report a colony they find inappropriate. Letters between friends contain one of a few fixed phrases and at most two kinds of basic resources; they are kept until they are received or for 30 days at most.</p>
 
 <h2>6. Retention and deletion</h2>
-<p>You can delete your account in the app (<em>Settings → Delete Account</em>). This deletes your cloud saves, reserved player name, account level and Firebase account, and anonymizes your leaderboard entries (shown as "Deleted User") and your referral code. If you want any remaining item removed (for example a feedback post), email us and we will delete it. Crash reports are kept by Firebase for a limited period. Uninstalling the app removes local data from your device.</p>
+<p>You can delete your account in the app (<em>Settings → Delete Account</em>). This deletes your cloud saves, reserved player name, account level and Firebase account, and anonymizes your leaderboard entries (shown as "Deleted User") and your referral code. It also deletes your shared colony, the guest book of your colony, your letters, your friend invitations and your friends list. Messages you left in other players' colonies, and your name in your friends' own lists, may remain until they are removed. If you want any remaining item removed (for example a feedback post), email us and we will delete it. Crash reports are kept by Firebase for a limited period. Uninstalling the app removes local data from your device.</p>
 
 <h2>7. Your rights</h2>
 <p>Depending on where you live (including the EU/EEA and the UK), you have the right to access, correct, delete and export your data, to object to or restrict processing, and to lodge a complaint with your data protection authority (in France: the CNIL). Contact us at the address above.</p>
@@ -65,7 +68,7 @@
 
 <section id="fr">
 <h1>Depth Runner – Politique de confidentialité</h1>
-<p class="muted">Dernière mise à jour : 29 septembre 2026</p>
+<p class="muted">Dernière mise à jour : 31 octobre 2026</p>
 
 <p>Depth Runner (« le jeu ») est un jeu Android édité par Timothé Rolland (Rolling Byte Studio), développeur indépendant basé en France (« nous »). Cette politique explique quelles données l'application utilise, pourquoi, et comment vous pouvez les contrôler. Contact : <a href="mailto:timothe.rolland@gmail.com">timothe.rolland@gmail.com</a>.</p>
 
@@ -78,6 +81,8 @@
 <li><strong>Adresse e-mail et mot de passe, ou identifiant Google</strong>, uniquement si vous créez ou liez un compte : connexion et restauration de votre progression.</li>
 <li><strong>Pseudo, avatar, scores, niveau de compte</strong> (Firestore) : affichés publiquement dans les classements.</li>
 <li><strong>Progression du jeu</strong> (sauvegarde cloud, Firestore) : sauvegarde et restauration.</li>
+<li><strong>Colonie partagée</strong>, uniquement si vous allumez la Beacon Table : copie en lecture seule de vos bâtiments, meubles, cultures, sol, résidents, compagnon actif, niveau et pseudo (Firestore), pour que d'autres joueurs puissent la visiter.</li>
+<li><strong>Messages du livre d'or, liste d'amis et invitations, lettres</strong> (une phrase parmi quelques phrases fixes et quelques ressources de base) <strong>et signalements de colonies</strong> (Firestore) : visites, amis et lettres entre joueurs ; traitement des signalements.</li>
 <li><strong>Messages du tableau de retours, votes, codes et historique de parrainage</strong> (Firestore).</li>
 <li><strong>Compteurs d'usage anonymes</strong> (nombre de joueurs, de parties, d'achats) : aucun compteur n'est lié à vous.</li>
 <li><strong>Rapports de plantage</strong> (Firebase Crashlytics) : modèle d'appareil, version d'Android et de l'application, journaux techniques.</li>
@@ -90,13 +95,14 @@
 <p>Le jeu est gratuit grâce aux publicités. Au premier lancement, vous pouvez accepter ou refuser la publicité personnalisée. Si vous acceptez, nos partenaires publicitaires et Meta peuvent utiliser votre identifiant publicitaire et des données d'appareil pour personnaliser et mesurer les annonces. Si vous refusez, des publicités sont toujours affichées mais elles ne sont pas personnalisées et la mesure Meta reste désactivée. Vous pouvez changer d'avis à tout moment dans <em>Réglages → Privacy</em>, ou réinitialiser votre identifiant publicitaire dans les paramètres Android. Certains SDK publicitaires peuvent démarrer une initialisation technique avant votre choix ; la personnalisation et la mesure Meta ne s'appliquent qu'après votre acceptation.</p>
 
 <h2>4. Bases légales (RGPD)</h2>
-<p>Compte, classements et sauvegarde : exécution du service demandé. Rapports de plantage : intérêt légitime (stabilité du jeu). Publicité personnalisée et mesure Meta : votre consentement, retirable à tout moment.</p>
+<p>Compte, classements, sauvegarde, colonie partagée, amis et lettres : exécution du service demandé. Rapports de plantage : intérêt légitime (stabilité du jeu). Publicité personnalisée et mesure Meta : votre consentement, retirable à tout moment.</p>
 
 <h2>5. Contenu public</h2>
 <p>Votre pseudo, avatar, scores et niveau de compte sont visibles des autres joueurs. N'utilisez pas votre vrai nom ni d'informations personnelles comme pseudo. Les pseudos sont vérifiés automatiquement.</p>
+<p>Si vous allumez la Beacon Table, d'autres joueurs peuvent visiter une copie en lecture seule de votre colonie et voir votre pseudo et votre niveau. Elle ne contient jamais vos objets, votre portefeuille, vos achats ni votre progression. Vous pouvez arrêter le partage à tout moment en éteignant la balise, ce qui supprime la copie ; une copie qui n'est plus rafraîchie expire automatiquement. Les visiteurs peuvent vous laisser l'un de quelques messages fixes, affiché avec leur pseudo, et signaler une colonie qu'ils jugent inappropriée. Les lettres entre amis contiennent une phrase parmi quelques phrases fixes et au plus deux sortes de ressources de base ; elles sont conservées jusqu'à leur réception ou 30 jours au plus.</p>
 
 <h2>6. Conservation et suppression</h2>
-<p>Vous pouvez supprimer votre compte dans l'application (<em>Réglages → Delete Account</em>) : cela supprime vos sauvegardes cloud, votre pseudo réservé, votre niveau de compte et votre compte Firebase, et anonymise vos entrées de classement (affichées « Deleted User ») ainsi que votre code de parrainage. Pour tout élément restant (par exemple un message du tableau de retours), écrivez-nous et nous le supprimerons. Les rapports de plantage sont conservés par Firebase pour une durée limitée. Désinstaller l'application supprime les données locales.</p>
+<p>Vous pouvez supprimer votre compte dans l'application (<em>Réglages → Delete Account</em>) : cela supprime vos sauvegardes cloud, votre pseudo réservé, votre niveau de compte et votre compte Firebase, et anonymise vos entrées de classement (affichées « Deleted User ») ainsi que votre code de parrainage. Elle supprime aussi votre colonie partagée, le livre d'or de votre colonie, vos lettres, vos invitations d'amis et votre liste d'amis. Les messages que vous avez laissés dans les colonies d'autres joueurs, et votre nom dans la liste de vos amis, peuvent subsister jusqu'à leur suppression. Pour tout élément restant (par exemple un message du tableau de retours), écrivez-nous et nous le supprimerons. Les rapports de plantage sont conservés par Firebase pour une durée limitée. Désinstaller l'application supprime les données locales.</p>
 
 <h2>7. Vos droits</h2>
 <p>Selon votre lieu de résidence (dont l'UE/EEE et le Royaume-Uni), vous disposez d'un droit d'accès, de rectification, d'effacement, de portabilité, d'opposition et de limitation, et du droit d'introduire une réclamation auprès de votre autorité de protection des données (en France : la CNIL). Contactez-nous à l'adresse ci-dessus.</p>
